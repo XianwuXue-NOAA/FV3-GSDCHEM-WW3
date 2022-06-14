@@ -1,6 +1,6 @@
 [submodule "FV3"]
 	path = FV3
-	url = https://github.com/lipan-NOAA/fv3atm
+	url = https://github.com/NOAA-EMC/fv3atm
 [submodule "FMS"]
 	path = FMS
 	url = https://github.com/NOAA-EMC/FMS
