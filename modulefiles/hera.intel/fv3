@@ -2,15 +2,9 @@
 ##
 ##    NEMS FV3 Prerequisites: Hera/Intel
 
-proc ModulesHelp {} {
-  puts stderr "\tcit - loads modules required for building and running FV3 under NEMS on Hera/Intel"
-}
-
-module-whatis "loads NEMS FV3 prerequisites for Hera/Intel"
-
 # NOTE: the "module purge" and loading of the module command are
 # handled by the module-setup.sh (or .csh) script.
-setenv NCEPLIBS /scratch2/NCEPDEV/nwprod/NCEPLIBS
+export NCEPLIBS=/scratch2/NCEPDEV/nwprod/NCEPLIBS
 ##
 ## load contrib environment
 ## load slurm utils (arbitrary.pl  layout.pl)
